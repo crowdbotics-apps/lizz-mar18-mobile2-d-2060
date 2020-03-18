@@ -3,8 +3,8 @@ from rest_framework.routers import DefaultRouter
 from .viewsets import (
     CustomModel344pmViewSet,
     CustomModel345pmViewSet,
-    HomePageViewSet,
     CustomTextViewSet,
+    HomePageViewSet,
 )
 
 from home.api.v1.viewsets import (
